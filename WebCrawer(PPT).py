@@ -50,9 +50,12 @@ print(getdata(next2link))
 
 nextlink="https://www.ptt.cc/bbs/sex/index1.html"
 Counter = 0
-while Counter <15:
+while Counter <20:
     nextlink = "https://www.ptt.cc/"+getdata(nextlink)   #recursive 反向
     Counter +=1
+
+
+
     
 
 
