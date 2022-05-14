@@ -31,7 +31,7 @@ print(p1.x,p1.y)
 print(p2.x,p2.y)
 '''
 
-
+'''
 
 class FullName:
     def __init__(self,frist,last):
@@ -44,4 +44,7 @@ print(Master.frist,Master.last)
 slaver = FullName("X","XX")
 print(slaver.frist,slaver.last)
 
+'''
+
+# install + 
 
