@@ -1,4 +1,7 @@
-from itertools import product
+
+
+import numbers
+from typing import Counter
 
 
 def yieldNumber():  #through forloop to yield 
@@ -13,3 +16,31 @@ print(generator)   # we could know this time function only load generator (not n
 
 for x in generator:
     print(x)
+
+
+print("===========================================")
+
+
+def genetatorSingular(Maxumber):
+    '''
+    number = 1    #if variable write in outside, it wouldn't be executed 
+    yield number
+    number+=2   
+    yield number
+    number+=2
+    yield number
+    '''
+    number = 1
+    while number < Maxumber:
+        yield number
+        number+=2
+        
+
+
+
+
+
+singularNumber = genetatorSingular(100)
+
+for data in singularNumber:
+    print(data)
